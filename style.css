@@ -1,0 +1,68 @@
+.grid{
+    width:500px;
+    height:500px;
+    display:flex;
+    flex-wrap:wrap;
+    border-style: solid;
+    border-radius: 10px;
+    background-image:linear-gradient(rgb(170, 236, 170), rgb(236, 236, 167))
+}
+body{
+    background-image: url("snakewallpaper.jpg");
+    background-size: cover;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+}
+.title{
+    text-align: center;
+    font-style:italic;
+    font-weight:bold;
+    color:yellow;
+    font-size:45px;
+    margin-bottom:0px;
+}
+
+.score{
+    text-align: center;
+    font-style:italic;
+    font-weight:bold;
+    color:rgb(255, 187, 0);
+    font-size:40px;
+    margin-bottom: 10px;
+}
+.boundary{
+    justify-content: center;
+    display: flex;
+}
+
+.grid div{
+    width:25px;
+    height:25px;
+    border-radius: 3px;
+    
+}
+
+.snake{
+    background-color:purple
+}
+
+.apple{
+    background: linear-gradient(rgb(240, 124, 124), rgb(228, 228, 129));
+}
+.button{
+    background-color: rgb(0, 81, 255);
+    text-align: center;
+    color:white;
+    border-radius: 10px;
+    padding:10px;
+    margin-top:10px;
+}
+
+.center{
+    text-align: center;
+}
+.head{
+    background-color: orangered;
+}
